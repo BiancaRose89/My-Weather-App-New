@@ -1,0 +1,51 @@
+body {
+  width: 100%;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-image: url(../images/forest.jpg);
+  background-size: cover;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.main-heading {
+  color: #71aec4;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 200px;
+}
+
+.container.predictions {
+  font-family: "Handlee", cursive;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 60px;
+}
+
+#wrapper {
+  margin: 10px 100px 30px 100px;
+  padding: 20px 80px;
+  height: 100%;
+  background-color: rgba(255, 400, 300, 0.8);
+  border-radius: 12px;
+}
+
+.forecast {
+  text-align: center;
+}
