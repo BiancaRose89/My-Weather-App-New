@@ -30,36 +30,48 @@
           placeholder="Search for a city"
           autocomplete="off"
           autofocus="on"
-          id = "search-text-input"
+          id = "city-input"
         />
         <input type="Submit" value="Search" />
-        <input id="cwbutton" type="Submit" value="Current Location" />
+        <input id="current-location-button" type="Submit" value="Current Location" />
       </form>
 
     <div id="wrapper">
        
 
-      <h2>You are looking at ....</h2>
+      <h2 id="city">You are looking at ....</h2>
 
         </br>
 
       <div class="container predictions">
         <div class="row">
             <div class="col">
-            Raining with Thundershowers </br>
-            30% chance of rain
+              <li>
+                Date <span id="todaysDate"></span>
+              </li>
+              <li>
+              Humidity 
+            <span id="humidity">21</span>%
+              </li>
+            
+              <li>
+                Wind 
+              <span id="wind">8</span>km/h
+              </li>
             </div>
 
             </br>
                 <div class="col">
-                    <span class="temperature"></span>  
+                  <li>
+                    Temperature is <span id="temperature">9</span> °C
+                  </li>
+                  <li>What to expect <span id="description"></span>
+                  </li>
                     
                 </div>
 
-            <div class="col today-date" id=todaysDate>
-                Saturday, </br>
-                2:30pm  </br>
-                09/05/2021
+            <div > 
+                
             </div>
         </div>
         </div>
@@ -92,9 +104,12 @@
                         TUE
         </div>
 </div>
-<a href="https://github.com/BiancaRose89/My-Weather-App-New/tree/81ded7fa06fe927dd54da876afea977180cef0b0" target="_blank">My GitHub Page</a>
+
 
       <script src="src/javascript.js"></script>
     </div>
+    <div>
+      <a href="https://github.com/BiancaRose89/My-Weather-App-New/tree/81ded7fa06fe927dd54da876afea977180cef0b0" target="_blank">My GitHub Page</a></div>
+    
   </body>
 </html>
