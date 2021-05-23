@@ -38,7 +38,7 @@ function showWeather(response) {
   let button = document.querySelector("#cwbutton");
   let temperature = Math.round(response.data.main.temp);
   h2.innerHTML = `It is currently ${temperature}° in ${response.data.name} !`;
-  button.addEventListener("click");
+  button.addEventListener("click", showWeather);
 }
 
 function getPosition(position) {
